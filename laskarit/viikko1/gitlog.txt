@@ -1,0 +1,106 @@
+
+(base) inkilaio@lx9-fuxi054:~/ohte/ot_viikko1$ git log --stat | cat
+commit d7b79eab06d2df10296d4a34ef1586212d783166
+Author: Ossi Inkiläinen <ossi.inkilainen@helsinki.fi>
+Date:   Tue Oct 27 18:53:08 2020 +0200
+
+    säätöjä
+
+ tiedostoja/file2             | 0
+ tiedostoja/{file1 => file22} | 0
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 29b42c60585fce85eadd1d86f90a2cb48a3b0be5
+Author: Ossi Inkiläinen <ossi.inkilainen@helsinki.fi>
+Date:   Tue Oct 27 18:49:51 2020 +0200
+
+    lisää filettä
+
+ tiedostoja/file1 | 0
+ tiedostoja/file2 | 0
+ tiedostoja/file3 | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 3a11a38bc67ce62860d9753f6bec5d7d47fdf978
+Author: Ossi Inkiläinen <ossi.inkilainen@helsinki.fi>
+Date:   Tue Oct 27 18:37:21 2020 +0200
+
+    muutoksia
+
+ eka.txt    | 1 +
+ kolmas.txt | 1 +
+ 2 files changed, 2 insertions(+)
+
+commit 113ffa0c415066aea667018e0c014abaa57d9890
+Author: Ossi Inkiläinen <ossi.inkilainen@helsinki.fi>
+Date:   Tue Oct 27 18:36:10 2020 +0200
+
+    rename
+
+ tiedosto.txt => eka.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 67b6b375257d3363769c7dd220e0bd44f3db0633
+Author: Ossi Inkiläinen <ossi.inkilainen@helsinki.fi>
+Date:   Tue Oct 27 18:35:28 2020 +0200
+
+    poisto
+
+ toinen.txt | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit a05c28471b6a7670f49e39c3d79956c8c69ff161
+Author: Ossi Inkiläinen <ossi.inkilainen@helsinki.fi>
+Date:   Tue Oct 27 18:34:15 2020 +0200
+
+    lorem
+
+ tiedosto.txt | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+commit 45f528c3e28dd017ff9aa0347aaacc5948057837
+Author: Ossi Inkiläinen <ossi.inkilainen@helsinki.fi>
+Date:   Tue Oct 27 18:32:07 2020 +0200
+
+    lorem ipsum
+
+ tiedosto.txt | 9 +++++++++
+ 1 file changed, 9 insertions(+)
+
+commit bf5b4679cdc9879d40b454be3347d5a82d3317b8
+Author: Ossi Inkiläinen <ossi.inkilainen@helsinki.fi>
+Date:   Tue Oct 27 18:27:00 2020 +0200
+
+    editointia
+
+ kolmas.txt | 1 +
+ toinen.txt | 1 +
+ 2 files changed, 2 insertions(+)
+
+commit 6dd74bdbf7f3842c09f66348effad25696d53f6e
+Author: Ossi Inkiläinen <ossi.inkilainen@helsinki.fi>
+Date:   Tue Oct 27 18:26:31 2020 +0200
+
+    kolmas.txt
+
+ kolmas.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit eccff345c75a33e8546846e942934075e9c0ef4d
+Author: Ossi Inkiläinen <ossi.inkilainen@helsinki.fi>
+Date:   Tue Oct 27 18:25:07 2020 +0200
+
+    muutos ja lisäys
+
+ tiedosto.txt | 1 +
+ toinen.txt   | 0
+ 2 files changed, 1 insertion(+)
+
+commit 90d52c2109e2722702ff9a1197dd99b82d9ed3ff
+Author: Ossi Inkiläinen <ossi.inkilainen@helsinki.fi>
+Date:   Tue Oct 27 18:23:39 2020 +0200
+
+    tiedosto.txt luotu
+
+ tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
