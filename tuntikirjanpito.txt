@@ -1,0 +1,3 @@
+Ohjelmistotekniikan harjoitustyön tuntikirjanpito
+PVM		Tunnit		Selite
+17.11.		2		Sovelluksen ideointi ja kuvaus
