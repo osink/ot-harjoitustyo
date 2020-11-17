@@ -1,3 +1,4 @@
 Ohjelmistotekniikan harjoitustyön tuntikirjanpito
 PVM		Tunnit		Selite
 17.11.		2		Sovelluksen ideointi ja kuvaus
+17.11.		3		Sovelluksen rakenteen luonnostelu ja pohjustaminen javalla
