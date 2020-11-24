@@ -3,6 +3,10 @@ Karttatilannekuvasovelluksen tarkoituksena on mahdollistaa erilaisten tehtävien
 
 Sovelluksen avulla on mahdollista hallinnoida esimerkiksi paikkoihin sidoksissa olevia tehtäviä, tai vaikkapa luetteloida eri paikkoihin varastoituja tavaroita.
 
+# Dokumentaatio
+[Työaikakirjanpito](https://github.com/osink/ot-harjoitustyo/blob/master/dokumentaatio/tuntikirjanpito.md)
+
+# Rullaava tilannekuva:
 
 17.11. tilanne: Rakenteen luonnostelu Javassa. 
 Seuraavat stepit:
