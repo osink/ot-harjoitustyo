@@ -1,7 +1,0 @@
-Ohjelmistotekniikan harjoitustyön tuntikirjanpito
-PVM		Tunnit		Selite
-17.11.		2		Sovelluksen ideointi ja kuvaus
-17.11.		3		Sovelluksen rakenteen luonnostelu ja pohjustaminen javalla
-23.11.		4		Tietokantayhteys
-24.11.		6		Alkeellinen käyttöliittymä ja perusrakenne
-24.11.		1		Checkstyle

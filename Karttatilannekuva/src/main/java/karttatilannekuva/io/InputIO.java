@@ -59,9 +59,9 @@ public class InputIO implements InputInterface {
     }
     
     public void tulostaOhjeet() {
-        inputIO.println("\nKOMENNOT:\n" + GET + " hakee pisteet\n"
-                + ADD + " lisää pisteen\n"
-                + "tyhjä syöte lopettaa ohjelman");
+        inputIO.println("\nKOMENNOT:\n" + GET + "\t\thakee pisteet\n"
+                + ADD + "\t\tlisää pisteen\n"
+                + "tyhjä syöte\tlopettaa ohjelman");
     }
     
     private static boolean validateInput(String[] input) {
