@@ -17,5 +17,5 @@ public interface MediaInterface {
     
     HashMap<Integer, Piste> fetch();
     
-    Piste NewTip(InputInterface inputIO);
+    Piste newTip(InputInterface inputIO);
 }

@@ -19,14 +19,14 @@ import karttatilannekuva.domain.*;
  * @author inkilaio
  */
 public class Paaohjelma {
-    private static final String DB_TIEDOSTONIMI="kartta";
+    private static final String DB_TIEDOSTONIMI = "kartta";
     
-    public static void main(String[] args){
+    public static void main(String[] args) {
         System.out.println("Syötä pisteitä komennolla 1, listaa pisteet komennolla 2");
         run();
     }
     
-    public static void run(){
+    public static void run() {
         TiedostoDAO dbFile = new TiedostoDAO();
         dbFile.luoTiedosto(DB_TIEDOSTONIMI);
         TietokantaDAO db = new TietokantaDAO(DB_TIEDOSTONIMI);
@@ -34,12 +34,12 @@ public class Paaohjelma {
         InputIO io = new InputIO(new PisteIO(db));
         io.tulostaOhjeet();
         
-        while(true){
+        while (true) {
             System.out.println("\nAnna syöte:");
             String[] input = io.readInput().split(" ");
-            if(input[0].equals("")){
+            if (input[0].equals("")) {
                 break;
-            } else{
+            } else {
                 io.manageInput(input);
             }
         }

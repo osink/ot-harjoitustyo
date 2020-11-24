@@ -23,24 +23,24 @@ import java.util.stream.Stream;
  */
 public class TiedostoDAO {
     
-    public Integer luoTiedosto(String tiedostoNimi){
+    public Integer luoTiedosto(String tiedostoNimi) {
         boolean tiedostoOlemassa = onOlemassa(tiedostoNimi);
         
-        if(tiedostoOlemassa){
+        if (tiedostoOlemassa) {
             return 1;
-        } else{
+        } else {
             try {
                 Connection db = DriverManager.getConnection("jdbc:sqlite:" + tiedostoNimi + ".db");
                 db.createStatement().execute("CREATE TABLE Pisteet (id INTEGER PRIMARY KEY AUTOINCREMENT, x INTEGER, y INTEGER, z INTEGER);");
                 return 2;
-            } catch (SQLException e){
+            } catch (SQLException e) {
                 e.printStackTrace();
                 return 3;
             }
         }
     }
     
-    public boolean onOlemassa(String tiedostoNimi){
+    public boolean onOlemassa(String tiedostoNimi) {
         try {
             Class.forName("org.sqlite.JDBC");
             String check = tiedostoNimi + ".db";

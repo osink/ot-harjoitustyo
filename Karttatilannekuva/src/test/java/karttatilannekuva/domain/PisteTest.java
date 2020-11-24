@@ -39,13 +39,13 @@ public class PisteTest {
     
     @Test
     public void pisteKonstruktoriEiVoiOllaNegatiivinenX(){
-        piste = new Piste(-2,2);
+        piste = new Piste(-2,2,2);
         assertEquals(0,piste.getX());
     }
     
     @Test
     public void pisteKonstruktoriEiVoiOllaNegatiivinenY(){
-        piste = new Piste(2,-2);
+        piste = new Piste(2,-2,2);
         assertEquals(0,piste.getY());
     }
     

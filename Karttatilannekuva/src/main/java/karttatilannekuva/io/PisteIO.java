@@ -16,7 +16,7 @@ import java.util.HashMap;
 public class PisteIO implements MediaInterface {
     TietokantaDAO db;
     
-    public PisteIO(TietokantaDAO db){
+    public PisteIO(TietokantaDAO db) {
         this.db = db;
     }
     
@@ -25,13 +25,13 @@ public class PisteIO implements MediaInterface {
      * @return taulu id : Piste
      */
     @Override
-    public HashMap<Integer, Piste> fetch(){
+    public HashMap<Integer, Piste> fetch() {
         HashMap<Integer, Piste> pisteet = db.listaaPisteet();
         return pisteet;
     }
     
     @Override
-    public Piste NewTip(InputInterface inputIO) {
+    public Piste newTip(InputInterface inputIO) {
         inputIO.println("Lisätään uusi piste");
         inputIO.println("Anna pisteen x: ");
         int x = Integer.valueOf(inputIO.readInput());
@@ -44,7 +44,7 @@ public class PisteIO implements MediaInterface {
     }
     
     @Override
-    public void add(Piste piste){
+    public void add(Piste piste) {
         db.lisaaPiste(piste.getX(), piste.getY(), piste.getZ());
     }
 }
