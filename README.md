@@ -11,3 +11,10 @@ Seuraavat stepit:
 - määrittele kohdeobjektien ominaisuudet
 - luo tietokantakäsittelijä
 - luo graafinen käyttöliittymä
+
+24.11. tilanne: Tietokantatallennus luotu pisteille. 
+Seuraavat stepit:
+- määrittele karttaobjektien (viivat, pinnat) ominaisuudet
+- määrittele kohdeobjektien (tehtävät) ominaisuudet
+- lisää tehtäväkohteet tietokantaan
+- luo graafinen käyttöliittymä
