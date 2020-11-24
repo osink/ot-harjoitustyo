@@ -12,8 +12,9 @@ package karttatilannekuva.domain;
 public class Piste {
     private int koordX;
     private int koordY;
+    private int koordZ;
     
-    public Piste(int x, int y){
+    public Piste(int x, int y, int z){
         if(x >= 0){
             this.koordX = x;
         }else{
@@ -23,6 +24,11 @@ public class Piste {
             this.koordY = y;
         }else{
             this.koordY = 0;
+        }
+        if(z >= 0){
+            this.koordZ = z;
+        }else{
+            this.koordZ = 0;
         }
     }
     
@@ -49,5 +55,14 @@ public class Piste {
     
     public int getY(){
         return this.koordY;
+    }    
+    
+    public int getZ(){
+        return this.koordZ;
+    }
+    
+    @Override
+    public String toString(){
+        return "x: " + this.koordX + "\ty: " + this.koordY + "\tz: " + this.koordZ;
     }
 }

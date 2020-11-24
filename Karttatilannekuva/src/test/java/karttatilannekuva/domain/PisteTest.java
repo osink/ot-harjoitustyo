@@ -23,7 +23,7 @@ public class PisteTest {
     }
     @Before
     public void setUp() {
-        piste = new Piste(2,3);
+        piste = new Piste(2,3,0);
     }
     
     @Test
